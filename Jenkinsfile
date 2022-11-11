@@ -12,6 +12,7 @@ pipeline{
                     git branch: 'main', credentialsId: 'git_credential', url: 'https://github.com/kumaryadav989/sampleapp.git'
 
                   }
+                }
             }
         }
         

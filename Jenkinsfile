@@ -9,7 +9,7 @@ pipeline{
             steps{
                 
                 script{
-                    git branch: git credentialsId: 'git_credential', url: 'https://github.com/kumaryadav989/sampleapp.git'
+                    git branch: 'master' git credentialsId: 'git_credential', url: 'https://github.com/kumaryadav989/sampleapp.git'
 
                 }
             }
